@@ -21,8 +21,10 @@
 // Fonction anonyme avec la syntaxe "fat arrow function"
 
 // Utilisation de la fonction pour saluer Thomas dans la console
-
-
+const idk = (name) => {
+    return `Salut ${name}`;
+}
+console.log(idk('Noah'));
 
 /*
 N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions fléchées :

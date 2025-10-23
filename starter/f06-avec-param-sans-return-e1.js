@@ -24,6 +24,12 @@
 // le nombre dont on veut calculer le double.
 */
 
+function double(nombre) {
+    console.log(`Le double de ce paramètre est${2*nombre}`)
+}
+double(10);
+
+
 
 // 2°) Une fonction avec paramètre à la place de toutes celles-là :
 

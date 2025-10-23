@@ -13,13 +13,32 @@ N.B. Faites deux versions :
 */
 
 // Syntaxe classique
+function calcMin(nb1, nb2) {
+    if (nb1>nb2){
+        return nb2
+    } else if (nb2>nb1){
+        return nb1;
+    } else {
+        return 'Les deux nombres sont les mêmes';
+    }
+}
 
-
+console.log(calcMin(1,1));
 // Utilisation de la fonction calcMin pour calculer le minimum
 
 
 // Version avec une arrow function
+const calcMinArrow = (nb1, nb2) =>{
+    if (nb1>nb2){
+        return nb2
+    } else if (nb2>nb1){
+        return nb1;
+    } else {
+        return 'Les deux nombres sont les mêmes';
+    }
+}
 
+console.log(calcMinArrow(1,1));
 // Utilisation de la fonction calcMinArrow pour calculer le minimum
 
 

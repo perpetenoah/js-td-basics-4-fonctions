@@ -15,10 +15,12 @@
 */
 
 // Expression de fonction sans paramètre ni return
-
+function direBonjour() {
+    console.log('Bonjour !');
+}
 
 // Appel de la fonction
-
+direBonjour();
 
 
 // b) sans paramètre mais avec return
@@ -29,8 +31,7 @@
 - Utilisez-la pour afficher "Bonjour !" dans la console
 */
 
-// Expression de fonction sans paramètre mais avec return
-;
+// Expression de fonction sans paramètre, mais avec return
 
 // Utilisation de la fonction pour afficher "Bonjour !" dans la console
 

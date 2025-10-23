@@ -15,6 +15,19 @@
 const whatDoYouDo = function(job, firstName) {
     // Utilisez des conditions (if/else if) pour décrire le job de la personne en fonction de la valeur de 'job'.
     // Renvoyez la phrase appropriée en utilisant un return.
+    switch (job){
+        case 'teacher':
+            console.log(`${firstName} teaches kids how to code`);
+            break;
+        case 'driver':
+            console.log(`${firstName} drives a cab in Lisbon`);
+            break
+        case 'designer':
+            console.log(`${firstName} designs beautiful websites`);
+            break
+        default:
+            console.log(`${firstName} does something else`);
+    }
 };
 
 /*
@@ -23,3 +36,6 @@ const whatDoYouDo = function(job, firstName) {
     - Jane (designer)
     - Mark (retired)
 */
+whatDoYouDo('teacher', 'John');
+whatDoYouDo('designer', 'Jane');
+whatDoYouDo('retired', 'Mark');

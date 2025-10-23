@@ -24,6 +24,13 @@ Ma variable message est une variable locale, je l'ai déclarée dans ma fonction
 => si j'essaie d'accéder à message en dehors de ma fonction, j'ai une erreur
 */
 
+// function direBonjour() {
+//     let message = 'Bonjour !';
+//     console.log(message);
+// }
+//
+// direBonjour();
+// console.log(message);
 
 // EXERCICE 2 : fonction avec return
 // 1°) Déclarer une fonction direBonjour qui
@@ -40,3 +47,10 @@ Ma variable message est une variable locale, je l'ai déclarée dans ma fonction
 Par contre, je peux utiliser le return pour faire sortir sa valeur de ma fonction 
 Si ma fonction retourne message, lorsque j'appelle ma fonction, sa valeur de retour est le contenu de la variable message
 */
+
+function direBonjour() {
+    let message = 'Bonjour !';
+    return message;
+}
+
+console.log(direBonjour());
